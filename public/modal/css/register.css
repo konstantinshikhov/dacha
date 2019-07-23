@@ -1,0 +1,55 @@
+.sc-registration-form {
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin: 0 10px;
+    width: 402px;
+}
+.sc-registration-form .login-title {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.sc-registration-form form {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.sc-registration-form form input {
+    width: 400px;
+    padding: 10px 12px;
+    outline: none;
+    border: 2px solid #ccc;
+    margin-bottom: 15px;
+    color: #2872d0;
+    line-height: 1;
+    font-size: 14px;
+}
+.sc-registration-form form input:last-of-type {
+    
+    margin-bottom: 10px;
+    
+}
+.sc-registration-form form .button {
+    width: 100%;
+    padding: 12px;
+    text-align: center;
+    color: #fff;
+    background: #2872d0;
+    font-size: 14px;
+    border: 2px solid #2872d0;
+    cursor: pointer;
+}
+.sc-registration-form form input[type=checkbox]{
+    width: 20px;
+    padding: 0;
+    margin: 0;
+}
+.check-agreement {
+    padding-bottom: 10px;
+    width: 100%;
+    justify-content: space-between;
+    font-size: 16px;
+}

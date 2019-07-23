@@ -1,0 +1,140 @@
+
+.sc-sellers-category__list {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	padding-bottom:11px;
+}
+.sellers-category__list-item {
+	margin-right: 20px;
+	line-height: 1;
+}
+.sellers-category__list-item a{
+	color: #b1b1b1;
+    font-size: 12px;
+    cursor: pointer;
+}
+.sellers-category__list-item a:hover{
+	color: #000000;
+   text-decoration: none;
+}
+.sc-sellers-page-breadcrumb-bottom .breadcrumb{
+	padding-bottom: 0;
+}
+/*-----------sc-sellers-card-------------------*/
+.sc-sellers-card-work-price {
+	font-size: 13px;
+	text-align: center;
+    padding-top: 15px;
+    width: 80%;
+}
+/*-----------sc-sellers-card------------*/
+.sc-sellers-content-delivery-mail {
+	font-size: 14px;
+}
+.sc-sellers-card-item {
+	position: relative;
+	min-height: 190px;
+	background-color: #e6e6e6;
+	border-top-left-radius: 120px;
+	border-bottom-left-radius: 120px;
+	margin-bottom: 40px;
+}
+.sc-sellers-card-item-img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 190px;
+	height: 190px;
+	border-radius: 50%;
+	border:3px solid #4682b4;
+}
+.sc-sellers-card-item-content{
+	color: #00080c;
+	width: 75%;
+	padding:15px 25px 10px 205px;
+}
+.sc-sellers-card-item-content .h4 {
+	margin-bottom:15px;
+	padding-bottom:0;
+	font-size: 15px;
+}
+
+.sc-sellers-card-text {
+	font-size: 13px;
+	padding-bottom:15px;
+}
+.sc-sellers-card-item-btn {
+	
+	background: #1d67c6;
+	display: inline-block;
+    padding: 6px 80px;
+    border-radius: 25px;
+    color: #fff;
+    font-size: 14px;
+    text-align:center;
+    text-transform: uppercase;
+    position: absolute;
+    bottom:-16px;
+    right: 0; 
+
+}
+.sc-sellers-card-work-price-btn {
+	background: #eed317;
+	display: inline-block;
+    padding: 6px 40px;
+    border-radius: 25px;
+    color: #000000;
+    font-size: 14px;
+    text-align:center;
+    max-width: 200px;
+    
+    
+}
+.sc-sellers-card-work-price-btn:hover {
+	
+    color: #000000;
+    
+    text-decoration: none;}
+.sc-sellers-card-item-btn:hover {
+	color:#ffffff;
+	
+}
+.sc-sellers-delivery {
+	border-top:1px solid #000000;
+	padding-top: 10px;
+}
+.sc-sellers-delivery ul{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.sc-sellers-delivery-img {
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	margin-right: 15px;
+
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center;
+}
+.sc-sellers-card-item-additional {
+	width: 25%;
+	position: relative;
+
+}
+.sc-sellers-card-item-reviews {
+	font-weight: bold;
+	color: #1d67c6;
+	text-align: center;
+
+}
+.sc-sellers-card-item-reviews:before {
+	display: inline-block;
+	content: "|";
+	padding:0 5px;
+
+} 
+

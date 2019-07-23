@@ -1,0 +1,265 @@
+.sc-orders-card {
+    padding-bottom: 60px;
+}
+
+.orders-header {
+    background-image: linear-gradient(0deg, #3b83df 0, #1460c1);
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 44px;
+}
+
+.orders-header__saller-name {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: 30px;
+}
+
+.orders-header__saller-online {
+    margin-left: 12px;
+    width: 11px;
+    height: 11px;
+    border: 2px solid #fff;
+    background-color: #0f0;
+    border-radius: 50%;
+}
+
+.orders-header__link {
+    margin-left: 13px;
+    min-height: 19px;
+}
+
+.orders-header__link a {
+    position: relative;
+    padding-right: 10px;
+}
+
+.orders-header__link a:first-child:before {
+    display: none;
+}
+
+.orders-header__link a:before {
+    display: inline-block;
+    content: "";
+
+    height: 19px;
+    border: 1px solid #82b9ff;
+    position: absolute;
+    left: -6px;
+    top: -2px;
+}
+
+.orders-header__link-item {
+    color: #00ff54;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 14px;
+    text-decoration: underline;
+}
+
+.orders-header__link-item:hover {
+    color: #00ff54;
+
+}
+
+.orders-header__border {
+    margin: 0 7px;
+    height: 19px;
+    border: 1px solid #82b9ff;
+}
+
+.orders-header__number-orders {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+    padding-right: 30px;
+    text-align: center;
+}
+
+.orders-header__number-orders span {
+    display: block;
+    color: #ffffff;
+}
+
+.orders-header__number-orders span a {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.orders-header__number-orders span a:hover {
+    color: #ffffff;
+
+}
+
+.button-communication {
+    padding-left: 290px;
+}
+
+.button-communication__item {
+    display: inline-block;
+    padding: 0 10px;
+    min-width: 175px;
+    text-align: center;
+    background-color: #3078d6;
+    color: #fff;
+    font-family: Roboto-Regular;
+    font-size: 12px;
+    font-weight: 400;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.button-communication__item:hover {
+
+    color: #fff;
+
+}
+
+.orders-content__list {
+    width: 100%;
+}
+
+.orders-content__image {
+    width: 165px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.sc-my-order-table table {
+    width: 100%;
+}
+
+.sc-my-order-table table thead {
+    color: #a1a1a1;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 18px;
+
+
+}
+
+.sc-my-order-table table td {
+    padding: 5px 10px;
+
+
+}
+
+.sc-my-order-table table thead td {
+    border-bottom: 1px solid #d0d0d0;
+}
+
+.sc-my-order-table table thead td:first-child {
+    border-bottom: none;
+}
+
+.sc-table-order-name {
+    min-width: 230px;
+    width: 280px;
+}
+
+.sc-table-order-change {
+    min-width: 150px;
+    width: 210px;
+}
+
+.sc-my-order-table table tbody {
+    color: #a1a1a1;
+    font-size: 10px;
+}
+
+.sc-table-name-product {
+    font-size: 16px;
+    color: #000000;
+}
+
+.sc-table-name-product span {
+    color: #a1a1a1;
+    font-size: 10px;
+    display: block;
+}
+
+.sc-table-order-change-seller {
+    text-align: right;
+
+}
+
+.sc-my-order-table table tbody input {
+    width: 50px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    box-shadow: none;
+    font-size: 14px;
+    color: #000000;
+
+}
+
+.sc-table-order-price {
+    font-size: 14px;
+    color: #000000;
+}
+
+.delivery__way {
+    color: #000000;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.delivery__way-property {
+    text-decoration: underline;
+}
+
+.delivery__status {
+    margin-left: 42px;
+    color: #000000;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.delivery__status-property {
+    color: #000000;
+    text-decoration: underline;
+}
+
+.confirm-order__button {
+    display: inline-block;
+    padding: 10px 15px;
+    background-image: linear-gradient(0deg, #19c944 0, #09af32);
+
+    border-radius: 5px;
+    color: #fff;
+
+    font-size: 14px;
+
+    line-height: 18px;
+
+    position: relative;
+    bottom: -17px;
+    right: 10px;
+}
+
+.confirm-order__button:hover {
+
+    color: #fff;
+
+}
+
+.orders-content {
+    background-color: #f7f7f7;
+}
+
+.sc-btn-black {
+    background-image: none;
+    background-color: #974474;
+}
+.sc-btn-orange {
+    background-image: none;
+    background-color: orange;
+}

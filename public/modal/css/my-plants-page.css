@@ -1,0 +1,27 @@
+.sc-main-center-content-my-plants {
+	padding-top: 50px;
+}
+.sc-my-plants-breadcrumb-bottom .breadcrumb{
+	padding-bottom: 27px;
+}
+.sc-my-plants-btn-img {
+	display: block;
+	width: 30px;
+	height: 26px;
+	background-position: center;
+	background-repeat: no-repeat;
+	-webkit-background-size: contain;
+	background-size: contain;
+
+}
+.sc-buttons-element-container {
+	position: absolute;
+	right: 15px;
+	top: 20px;
+}
+.sc-buttons-element-container *{
+	margin-left: 15px;
+}
+.sc-buttons-element-container-inner {
+	padding-right: 200px;
+}

@@ -1,0 +1,127 @@
+.sc-page-title-block-container {
+	padding: 20px 40px;
+	background-color: #3366cc;
+	border:1px solid #ffffff;
+	outline: 4px solid #3366cc;
+	text-align: center;
+	color:#ffffff;
+	font-size: 20px;
+	margin:4px 3px 10px 3px;
+	
+
+}
+.sc-main-center-content p{
+	padding-bottom: 15px;
+}
+.sc-content-text-description {
+	background-color: #e6e6e6;
+	border-radius: 20px;
+	padding: 20px 15px;
+}
+.sc-content-text-products-list {
+	padding: 0 0 0 10px;
+	margin: 0;
+}
+.sc-content-text-products-list a{
+	color: #000000;
+	text-decoration: underline;
+}
+.sc-content-text-products-list a:hover{
+	color: #000000;
+	
+}
+.sc-content-text-description-container h3{
+	font-size: 18px;
+	color:#317ad7;
+	font-family: 'pt_sansregular';
+	text-transform: uppercase;
+	letter-spacing: 1px
+}
+/*-----------sc-foto-gallery-foto---------------*/
+.sc-foto-gallery-element-main-foto {
+	width: 100%;
+	min-height: 450px;
+	background-size:cover ;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.sc-foto-gallery-element-additional-foto {
+	width: 100%;
+	min-height: 150px;
+	background-size:cover ;
+	background-repeat: no-repeat;
+	background-position: center;
+	cursor: pointer;
+}
+
+.sc-content-text-btn-more {
+	
+	background-image: linear-gradient(0deg,#5095ed 0,#125fc0);
+	display: inline-block;
+    padding: 8px 13px;
+    border-radius: 25px;
+    color: #ffffff;
+    font-size: 14px;
+    text-align:center;
+        align-self: center;
+    
+}
+.sc-content-text-btn-more:hover {
+	color: #ffffff;
+}
+.sc-question-btn {
+	display: block;
+	width: 35px;
+	height: 35px;
+	
+	background-color: transparent;
+	border-radius: 50%;
+	border:1px solid #000000;
+	color: #000000;
+	font-size: 19px;
+	line-height: 33px;
+	text-align: center;
+	align-self: center;
+
+}
+
+.sc-question-hide-window{
+	margin-left:15px;
+	opacity: 0;
+    padding: 0;
+    text-align: center;
+    width: 30%;
+    border: 1px solid #000000;
+    border-radius: 16px;
+    font-size: 12px;
+    position: absolute;
+    color: #000000;
+    top:37%;
+    right: 0;
+}
+.sc-question-btn:hover {
+	color: #000000;
+	text-decoration: none;
+}
+.sc-question-btn:hover+.sc-question-hide-window {
+	opacity: 1;
+}
+
+.sc-content-text-products-list li{
+	display: flex;
+	align-items: center;
+}
+.sc-product-list-stars {
+	margin-left: 20px;
+}
+@media (min-width: 576px) {
+ }
+@media (min-width: 768px) {
+
+}
+@media (min-width: 992px) {
+	
+}
+@media (min-width: 1200px) {
+	
+}

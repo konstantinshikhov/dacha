@@ -1,0 +1,98 @@
+.sc-auxiliary-button__item{
+	background-color: #e2bc3b;
+    margin-left: 19px;
+    color: #000;
+    font-size: 12px;
+    font-weight: 400;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    padding:5px 25px;
+}
+.sc-auxiliary-button__item:hover{
+	
+    color: #000;
+    
+}
+.sc-assortment-table-container table{
+	width: 100%;
+	text-align: center;
+}
+.sc-assortment-table-container table thead {
+	color:#ffffff;
+
+	background-image: linear-gradient(0deg,#1661c1 0,#3c84e0);
+}
+.sc-assortment-table-container table th {
+	border-right: 1px solid #ffffff;
+}
+.sc-assortment-table-container table th,.sc-assortment-table-container table td {
+	font-weight:normal;
+	padding:5px;
+}
+.sc-assortment-table-container table td {
+	font-size: 14px;
+	background-color: #e6e6e6;
+}
+.sc-assortment-table-foto {
+	width: 5%;
+}
+.sc-assortment-table-inform {
+	width: 18%;
+}
+.sc-assortment-table-button{
+	width: 10%;
+}
+.sc-search-element-container-assortment {
+	position: absolute;
+    top: -25px;
+    right: 15px;
+}
+.sc-button-assortment-container {
+	display: inline-block;
+	position: absolute;
+    top: 21px;
+    right: 15px;
+}
+.sc-assortment-page-breadcrumb-bottom {
+	padding-bottom: 20px;
+}
+.sc-assortment-table-btn {
+	display: inline-block;
+	padding:5px 10px;
+	background-color: #1661c1;
+	color:#ffffff;
+	border-radius: 10px;
+
+}
+.sc-assortment-table-btn:hover {
+	
+	color:#ffffff;
+	
+}
+.sc-assortment-table-img {
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+	border:2px solid #1661c1;
+}
+.sc-assortment-table-name {
+	min-width: 140px; 
+	cursor: pointer;
+}
+.sc-assortment-table-type {
+	min-width: 68px; 
+	cursor: pointer;
+}
+.sc-assortment-table-category {
+	min-width: 95px; 
+	cursor: pointer;
+}
+.sc-assortment-table-name:after ,.sc-assortment-table-type:after, .sc-assortment-table-category:after{
+	display: inline-block;
+	content: "↑";
+	margin-left: 5px;
+
+}
+
+

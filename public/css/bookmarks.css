@@ -1,0 +1,151 @@
+
+.sc-breadcrumb-bookmarks-page {
+	padding-bottom: 0;
+
+}
+.sc-bookmarks-line {
+	height: 1px;
+	width: calc( 100% - 30px );
+	background-image: linear-gradient(0deg,#3e86e1 0,#3363f5);
+	margin:0 auto;
+	margin-top: 10px;
+}
+.main-center__title--button {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+.main-center__title-folder {
+    position: absolute;
+    right: 20px;
+    top: 24px;
+    color: #000;
+  
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.main-center__title-folder img {
+    margin-right: 10px;
+}
+.folders-input {
+    background: none;
+    border: none;
+    outline: none;
+    padding: 0 5px;
+}
+.sc-bookmarks-item{
+	color:#000000;
+	display: flex;
+	align-items: center;
+	width: 20%;
+	padding: 5px;
+
+}
+.sc-bookmarks-item:hover{
+	color:#000000;
+	text-decoration: none;
+
+}
+.sc-bookmarks-item span{
+	padding-left: 5px;
+
+}
+/*-----------------------*/
+
+.sc-bookmarks-card-item {
+	position: relative;
+	min-height: 190px;
+	background-color: #e6e6e6;
+	border-top-left-radius: 120px;
+	border-bottom-left-radius: 120px;
+	margin-bottom: 40px;
+}
+.sc-bookmarks-card-item-img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 190px;
+	height: 190px;
+	border-radius: 50%;
+	border:3px solid #4682b4;
+}
+.sc-bookmarks-card-item-content{
+	color: #00080c;
+	position: relative;
+	width: 100%;
+	padding:15px 25px 15px 205px;
+}
+.sc-bookmarks-card-item-content .h3 {
+	
+	padding-bottom:0;
+	text-transform: uppercase;
+	position: relative;
+	padding-bottom: 10px;
+}
+.sc-bookmarks-card-item-content .h3:after {
+	display: block;
+	content: "";
+	height: 1px;
+	width: 70%;
+	background-color: #000000;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+.sc-bookmarks-card-date {
+	font-size: 12px;
+	color:#4682b4;
+	margin-bottom: 20px;
+}
+.sc-bookmarks-card-text {
+	font-size: 13px;
+	padding-bottom:15px;
+}
+.sc-bookmarks-card-item-btn {
+	
+	background: #1d67c6;
+	display: inline-block;
+    padding: 6px 60px;
+    border-radius: 25px;
+    color: #fff;
+    font-size: 14px;
+    text-align:center;
+    text-transform: uppercase;
+    position: absolute;
+    bottom:-16px;
+    right: 0; 
+
+}
+.sc-bookmarks-card-item-btn:hover {
+	color:#ffffff;
+	
+}
+.sc-bookmarks-card-close {
+	width: 15%;
+}
+
+.sc-bookmarks-item-del{
+	color:#000000;
+	display: flex;
+	align-items: center;
+	width: 20%;
+	padding: 5px;
+
+}
+.sc-bookmarks-item-del-all {
+	color:#000000;
+}
+.sc-bookmarks-item-del:hover ,.sc-bookmarks-item-del-all:hover{
+	color:#000000;
+	text-decoration: none;
+
+}
+.sc-bookmarks-item-del span{
+	padding-left: 5px;
+
+}

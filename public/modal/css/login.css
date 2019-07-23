@@ -1,0 +1,125 @@
+
+.login-wrap {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    height: 100vh;
+}
+.sc-login-logo {
+	width: 300px;
+	margin-bottom: 25px;
+}
+.login {
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin: 0 10px;
+}
+.login-wrap {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.login-title {
+    font-size: 20px;
+    margin-bottom: 30px;
+    color:#000000;
+    text-align: center;
+}
+.login form {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.login form input {
+    width: 400px;
+    padding: 10px 12px;
+    outline: none;
+    border: 2px solid #ccc;
+    margin-bottom: 15px;
+    color: #2872d0;
+    line-height: 1;
+    font-size: 14px;
+}
+
+.login form .button {
+    width: 100%;
+    padding: 12px;
+    text-align: center;
+    color: #fff;
+    background: #2872d0;
+    font-size: 14px;
+    border: 2px solid #2872d0;
+    
+    cursor: pointer;
+}
+.login-bottom {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    width: 100%;
+    font-size: 12px;
+}
+.login-wrap .login .login-bottom a {
+    color: #6db2e3;
+    text-decoration: none;
+}
+
+.soc {
+    
+    padding: 0;
+    margin: 0;
+    padding-top: 15px;
+    list-style: none;
+    align-items: center;
+
+}
+
+.soc li{
+	display: inline-block;
+    margin-right: 10px;
+    cursor: pointer;
+
+}
+.fb {
+    width: 16px;
+    height: 14px;
+    background: url(../images/sc-login-fb.png) no-repeat center;
+    display: inline-block;
+    -webkit-background-size: contain;
+    background-size: contain;
+    padding: 4px 8px;
+    border-radius: 3px;
+   
+}
+.tw {
+    width: 14px;
+    height: 14px;
+    color: #007bff;
+    -webkit-background-size: contain;
+    background-size: contain;
+    background: url(../images/sc-login-tw.png) no-repeat 50%;
+}
+.inst {
+    width: 14px;
+    height: 14px;
+    color: #007bff;
+    -webkit-background-size: contain;
+    background-size: contain;
+    background: url(../images/sc-login-inst.png) no-repeat 50%;}
+.yt {
+    width: 14px;
+    height: 14px;
+    color: #007bff;
+   -webkit-background-size: contain;
+    background-size: contain;
+    background: url(../images/sc-login-yt.png) no-repeat 50%;}

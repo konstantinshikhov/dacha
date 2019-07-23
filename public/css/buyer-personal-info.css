@@ -1,0 +1,302 @@
+.sc-profile-container {
+	padding-top: 100px;
+    width: 100%;
+}
+.sc-buyer-btn {
+    margin-right: 60px;
+}
+.profile-image {
+    border: 3px solid #2872d0;
+    width: 175px;
+    height: 175px;
+    border-radius: 50%;
+    z-index: 5;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.profile__verified{
+    top: 11px;
+    right: 150px;
+    padding: 7px 0 7px 40px;
+    border-radius: 13px;
+    position: absolute;
+    background: #ecb600;
+    color: #fff;
+    z-index: 5;
+    font-size: 14px;
+   
+    width: 193px;
+}
+.profile__name{
+    margin-left: 10px;
+    margin-top: 45px;
+    font-size: 24px;
+   
+    color: #000;
+}
+.profile__list{
+    margin-left: 25px;
+    list-style-type: disc;
+    padding: 0;
+
+}
+.profile__list-item{
+    margin-top: 5px;
+    font-size: 14px;
+   
+    color: #000;
+}
+.rating{
+   width: 35%;
+}
+.rating__name{
+    margin-top: 45px;
+    font-size: 24px;
+    
+    color: #000;
+}
+.rating__text{
+    margin-top: 15px;
+    font-size: 12px;
+   
+    color: #000;
+}
+.rating__line{
+    margin-top: 13px;
+    position: relative;
+    width: 265px;
+    height: 14px;
+    background: #0abe36;
+}
+.rating__line-percentages{
+    top: -14px;
+    right: -86px;
+    font-size: 30px;
+    font-family: 'pt_sansbold';
+    color: #0abe36;
+    position: absolute;
+}
+.statistics__title {
+	font-size: 24px;
+    
+    color: #000;
+    text-align: center;
+}/*-----file input---------*/
+.person-info__col--style, .person-info__col-item {
+    padding-left: 13px;
+    box-shadow: inset -3.536px 3.536px 5px 0 rgba(0,0,2,.15);
+    border: none;
+    border-radius: 5px;
+    width: 236px;
+    height: 30px;
+}
+.person-info__col--style {
+    background: #fff;
+    color: #ababab;
+    position: relative;
+    margin-bottom: 1rem;
+}
+.font-span {
+	line-height: 31px;
+}
+.person-info__button-load {
+    width: 98px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 30px;
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background: #e9c33f;
+    font-size: 14px;
+    padding-top: 5px;
+    text-align: center;
+    font-family: Roboto-Regular;
+    color: #fff;
+    cursor: pointer;
+}
+.download {
+    display: none;
+}
+
+/*--------.statistics-user--------------------------*/
+.statistics-user {
+    z-index: 100;
+    margin-top: 20px;
+    position: relative;
+    width: 440px;
+    background-color: #f4f4f4;
+    padding-top: 72px;
+}
+.statistics-user__title {
+    background-image: linear-gradient(0deg,#3d84e0 0,#1360c0);
+    color: #fff;
+    
+    font-size: 24px;
+    padding: 21px 87px 35px 75px;
+    height: 18px;
+    line-height: 14px;
+    border-radius: 5px;
+    position: absolute;
+    left: 67px;
+    top: -20px;
+}
+.statistics-user__items {
+    height: 250px;
+    overflow-x: auto;
+}
+.statistics-user__orders {
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 24px;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 0 10px;
+}
+.statistics-user__orders-name {
+    color: #333;
+  
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+    width: 60%;
+}
+.statistics-user__orders-quantity {
+    width: 146px;
+    height: 25px;
+    background-color: #fff;
+    text-align: end;
+    color: #000;
+    
+    font-size: 18px;
+    line-height: 14px;
+    padding-right: 0;
+    padding-top: 6px;
+}
+.statistics-user__rating {
+    margin-top: 37px;
+    background-color: #2771cf;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 17px 0 18px 10px;
+}
+.statistics-user__rating-name, .statistics-user__rating-number {
+   
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 14px;
+    color: #ffde00;
+}
+.statistics-user__rating-number {
+    margin-left: 230px;
+}
+.statistics-user__rating-name, .statistics-user__rating-number {
+    
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 14px;
+    color: #ffde00;
+}
+.statistics-user__image-wrap {
+    width: 455px;
+    height: 449px;
+    background-color: #f4f4f4;
+}
+/*--------.statistics-seller--------------------------*/
+.statistics-seller {
+    z-index: 100;
+    padding-top: 72px;
+    
+    margin-top: 20px;
+    position: relative;
+    width: 440px;
+    background-color: #f4f4f4;
+}
+.statistics-seller__title {
+    background-image: linear-gradient(0deg,#3d84e0 0,#1360c0);
+    color: #fff;
+   
+    font-size: 24px;
+    padding: 21px 108px 36px 100px;
+    height: 18px;
+    line-height: 14px;
+    border-radius: 5px;
+    position: absolute;
+    left: 67px;
+    top: -20px;
+}
+.statistics-seller__items {
+    height: 250px;
+    overflow-x: auto;
+}
+.statistics-seller__orders {
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 24px;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 0 10px;
+}
+.statistics-seller__orders-name {
+    color: #333;
+    
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+    width: 60%;
+}
+.statistics-seller__orders-quantity {
+    width: 146px;
+    height: 25px;
+    background-color: #fff;
+    text-align: end;
+    color: #000;
+  
+    font-size: 18px;
+    line-height: 14px;
+    padding-right: 0;
+    padding-top: 5px;
+}
+.statistics-seller__rating {
+    margin-top: 39px;
+    background-color: #2771cf;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 18px 0 18px 20px;
+}
+.statistics-seller__rating-name, .statistics-seller__rating-number {
+    
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 14px;
+    color: #ffde00;
+}
+.statistics-seller__rating-number {
+    margin-left: 230px;
+}
+.statistics-seller__rating-name, .statistics-seller__rating-number {
+   
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 14px;
+    color: #ffde00;
+}
+.statistics-seller__image-wrap {
+    width: 455px;
+    height: 449px;
+    background-color: #f4f4f4;
+}

@@ -1,0 +1,42 @@
+.sc-mobile-menu-section {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 30;
+    background-color: #e6e6e6;
+}
+
+.sc-main-mobile {
+    background-color: #ffffff;
+}
+.sc-mobile-catalog-nav {
+	padding-top: 50px;
+	padding-bottom: 25px;
+}
+.sc-header-mobile-nav-container {
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+.sc-mobile-catalog-nav a, .sc-header-mobile-nav a{
+	display: block;
+	text-transform: uppercase;
+	font-size: 16px;
+    color: #6f6f6f;
+    
+}
+.sc-header-waves-reg-mobile a, .sc-header-waves-reg-mobile a:hover{
+	color: #3366cc;
+}
+.sc-header-mobile-tell,.sc-header-mobile-tell:hover, .sc-header-mobile-mail, .sc-header-mobile-mail:hover {
+	display: block;
+	color: #6f6f6f;
+
+}
+.apc-button-close-mobile {
+	position: fixed;
+	top:20px;
+	right: 30px;
+	cursor: pointer;
+}

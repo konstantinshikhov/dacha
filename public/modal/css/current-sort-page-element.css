@@ -1,0 +1,52 @@
+.sc-chemical-shop-category__list {
+	padding: 0;
+    margin: 0;
+    list-style: none;
+    padding-bottom: 10px;
+}
+.sc-chemical-shop-category__list-item a{
+	color: #b1b1b1;
+    font-size: 12px;
+    cursor: pointer;
+    margin-right: 15px;
+}
+.sc-chemical-shop-category__list-item a:hover{
+	color: #000000;
+    
+}
+.table-char__list {
+    list-style: none;
+    padding: 0;
+}
+.table-char__item {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 10px 0;
+    background-color: #fff;
+    
+}
+.table-char__list li:nth-child(odd) {
+    background-color: #e7e7e7;
+}
+.table-char__item-name {
+    width: 35%;
+}
+.sc-question-hide-window-sort {
+    
+    right: 8%;
+    top: 23%;
+}
+.sc-chemical-shop-list-info{
+    font-size: 12px ;
+}
+.sc-chemical-shop-list-info span{
+padding-right: 15px;
+}
+
+.sc-bookmark-all-container-article{
+    
+    top:6px;
+   
+}

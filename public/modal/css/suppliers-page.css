@@ -1,0 +1,258 @@
+.sc-suppliers-center-content {
+	padding-top: 50px;
+	min-width: 1030px;
+}
+.sc-suppliers-main-foto {
+	height: 500px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.sc-suppliers-scription-container {
+	position: relative;
+	top:-32px;
+}
+.sc-suppliers-scription-container .sc-content-text-description {
+	min-height: 500px;
+}
+.sc-suppliers-information-button-yellow {
+	padding: 6px 25px;
+    background: orange;
+    border-radius: 6px;
+    color: #fff;
+    letter-spacing: 1px;
+    position: relative;
+    top: -20px;
+}
+.sc-suppliers-table-quantity-buy {
+	width: 110px;
+
+}
+.sc-suppliers-table-quantity-buy-input {
+	width: 65px;
+}
+.sc-suppliers-buy-btn {
+	
+	padding: 6px 25px;
+    background: orange;
+    border-radius: 6px;
+    color: #fff;
+    letter-spacing: 1px;
+
+}
+.sc-suppliers-information-button-yellow:hover {
+	
+    color: #fff;
+}
+.sc-suppliers-information-button-yellow:active{
+	box-shadow: inset 0 4px 8px rgba(0,0,0,.35);
+}
+.sc-supliers-shop-info {
+	font-size: 14px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.sc-supliers-contact-info-link {
+	line-height: 1;
+}
+.sc-content-suppliers-header {
+
+}
+.sc-content-suppliers-header ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+
+}
+.sc-content-suppliers-header ul li{
+	flex-grow: 1;
+
+}
+.sc-content-suppliers-header ul li a{
+	display: block;
+	padding: 5px 55px;
+	color: #ffffff;
+	font-size: 20px;
+	border-right: 1px solid #ffffff;
+	text-align: center;
+	background-color: #5095ed;
+	flex-grow: 1;
+	
+}
+.sc-content-suppliers-header ul li:first-child a{
+	border-top-left-radius:25px;
+	border-bottom-left-radius:25px;
+
+	
+}
+.sc-content-suppliers-header ul li:last-child a{
+	border-top-right-radius:25px;
+	border-bottom-right-radius:25px;
+	background-color: orange;
+
+	
+}
+
+.sc-suppliers-table-container table{
+	width: 100%;
+	text-align: center;
+	margin-top: 35px;
+}
+.sc-suppliers-table-container table thead {
+	color:#000000;
+	font-size: 18px;
+
+	
+}
+.sc-suppliers-table-container tbody tr:nth-child(even) td{
+	background-color: #fff;
+	
+
+	
+}
+.sc-suppliers-table-container table th {
+	border-right: 1px solid #ffffff;
+}
+.sc-suppliers-table-container table th,.sc-assortment-table-container table td {
+	font-weight:normal;
+	padding:5px;
+}
+.sc-suppliers-table-container table td {
+	font-size: 14px;
+	background-color: #e6e6e6;
+	padding:5px;
+}
+.sc-suppliers-table-foto {
+	width: 5%;
+}
+
+.sc-suppliers-table-button{
+	width: 15%;
+}
+.sc-suppliers-table-btn {
+	display: inline-block;
+	padding:5px 16px;
+	background-color: green;
+	color:#ffffff;
+	
+
+}
+.sc-suppliers-table-btn:hover {
+	
+	color:#ffffff;
+	
+}
+.sc-suppliers-table-btn-container {
+	position: absolute;
+	right: 0;
+	top:12px;
+	font-size:13px;
+}
+
+.sc-suppliers-table-btn-container a:first-child{
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+	border-right: 1px solid #ffffff;
+}
+.sc-suppliers-table-btn-container a:last-child{
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+.sc-suppliers-table-btn-filter {
+	background-color: #5095ed;
+	display: inline-block;
+	padding:5px 10px;
+	color: #ffffff;
+
+}
+.sc-suppliers-table-btn-filter:hover {
+	
+	color: #ffffff;
+	
+}
+.sc-suppliers-select-container {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	color: #317ad7;
+	font-size:18px;
+}
+.sc-suppliers-order-price{
+	color: #317ad7;
+	font-size:18px;
+}
+.sc-suppliers-select-container .jq-selectbox {
+	margin-right: 20px;
+}
+
+/*-------select------------------*/
+.sc-suppliers-select-container .jq-selectbox__select{
+
+    min-width: 100px;
+    padding: 5px 50px 5px 15px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    
+    border:1px solid gray;
+}
+.sc-suppliers-select-container .jq-selectbox__trigger {
+    
+    width: 30px;
+    
+    border-left: 1px solid gray;
+}
+.sc-suppliers-select-container .jq-selectbox__trigger-arrow {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    
+    
+}
+.sc-suppliers-select-container .jq-selectbox__select-text {
+    
+    color: #000000;
+}
+.sc-suppliers-select-container .jq-selectbox__dropdown {
+    color:#000000;
+    top: 30px;
+    
+}
+.sc-suppliers-delivery-price-input {
+	background-color: #ffffff;
+	border:1px solid gray;
+	width: 100px;
+}
+.sc-suppliers-table-footer {
+	border-bottom: 1px solid gray;
+	margin-bottom: 25px;
+	position: relative;
+}
+.sc-suppliers-information-pagination {
+	position: absolute;
+    top: -10px;
+    right: 0;
+}
+.sc-suppliers-table-stars .fa{
+	font-size: 12px;
+
+}
+.sc-suppliers-btn-forms {
+    display: inline-block;
+    width: 23px;
+    min-width: 23px;
+    height: 23px;
+    background-color: transparent;
+    border-radius: 50%;
+    border: 1px solid #000000;
+    color: #000000;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    align-self: center;
+    cursor: pointer;
+    margin-left: 5px;
+    
+}
+.sc-suppliers-btn-forms:hover {
+	color: #000000;
+	text-decoration: none;
+}

@@ -1,0 +1,9 @@
+@media print {
+body {
+	background:#fff;
+}
+header, footer, .sc-main-left-content, .sc-main-right-content{
+	display:none
+}
+
+}

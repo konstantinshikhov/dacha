@@ -1,0 +1,144 @@
+.sc-user-container {
+	border-bottom: 2px solid #dcdcdc;
+	padding-bottom: 60px;
+	margin-bottom: 20px;
+	padding-top: 68px;
+}
+
+
+.sc-user-container .h3 {
+	font-size: 24px;
+    color: #2e2e2e;
+    padding-bottom: 57px;
+    font-family: 'montserrat_bold';
+}
+.sc-rate-first-header {
+	font-size: 24px;
+    color: #2e2e2e;
+	padding-bottom: 34px;
+    font-family: 'montserrat_bold';
+}
+.sc-rate-user-block {
+	box-shadow: 0 0 10px rgba(0,0,0,.08);
+    background: linear-gradient(0deg,#5095ed 0,#125fc0);
+    padding: 0 30px;
+    color: #FFFFFF;
+    font-size: 18px;
+    height: 170px;
+    
+}
+.rate-user__item-title {
+	width: 127px;
+    height: 127px;
+    border-radius: 50%;
+    background-color: #f8cd0f;
+    font-size: 14px;
+    color: #fffefe;
+    text-align: center;
+    padding-top: 55px;
+}
+.rate-user__item-title:hover {
+	
+    color: #fffefe;
+    
+}
+.rate-user__item-img {
+	position: relative;
+	top: -30px;
+}
+.sc-rate-user-list {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	max-width: 45%;
+	line-height: 1;
+}
+
+.sc-rate-user-list li:before {
+  content: "-";
+  padding-right: 5px;
+}
+.seller-rate-item{background-color: #fff;
+    box-shadow: 0 0 7px rgba(0,0,2,.3);
+    width: 20%;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 15px 0 15px 0;
+
+}
+.seller-rate-item__top {
+	width: 129px;
+	color:#ffffff;
+	font-weight: bold;
+	font-size: 25px;
+    height: 129px;
+    border-radius: 50%;
+    background: url(../images/seller.a6b1bf4.png) no-repeat 50% 50%,linear-gradient(0deg,#5095ed 0,#125fc0);
+    background-size: 70%;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    align-items: center;
+}
+.seller-rate-item__bottom-list {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	font-size: 14px;
+	color: #000000;
+	padding: 20px 20px 0 20px;
+	text-align: center;
+	line-height: 1.3;
+}
+.seller-rate-item__bottom-list li {
+	padding-bottom: 10px;
+}
+.seller-rate-item__bottom-price {
+	text-align: center;
+
+
+}
+.rate-decorator__item-title {
+	width: 127px;
+    height: 127px;
+    border-radius: 50%;
+    background-color: #1dc947;
+    font-size: 14px;
+    color: #fffefe;
+    text-align: center;
+    padding-top: 55px;
+}
+.rate-organizer__item-title {
+	width: 127px;
+    height: 127px;
+    border-radius: 50%;
+    background-color: #c8639f;
+    font-size: 14px;
+    color: #fffefe;
+    text-align: center;
+    padding-top: 55px;
+}
+.rate-organizer__item-title:hover,.rate-decorator__item-title:hover {
+	
+    color: #fffefe;
+    
+}
+.sc-organizer-user-list {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	max-width: 100%;
+}
+.sc-rate-form-container .sc-form-element {
+    background-color: #e8e8e8;
+}
+.sc-rate-form-container .form-control {
+	background-color: #ffffff;
+    
+    border-color: #ffffff;
+} 

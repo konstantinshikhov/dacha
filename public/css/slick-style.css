@@ -1,0 +1,68 @@
+
+.slick-arrow {
+		width: 40px;
+		height: 40px;
+		background-color: #ffffff;
+		outline: none;
+		box-shadow: none;
+		border: none;
+		z-index: 2;
+		cursor: pointer;
+		margin: auto;
+		position: absolute;
+	}
+	.slick-arrow:focus {
+		box-shadow: none;
+		outline: none;
+	}
+	.slick-prev {
+	}
+
+	.slick-next {
+	}
+	.slick-prev {
+		
+		
+		background-image: url(../images/slider-arrow.png);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: contain;
+			
+	}
+	.slick-next {
+		
+		background-image: url(../images/slider-arrow.png);
+		background-repeat: no-repeat;
+		background-position: center;
+		transform: rotate(180deg);
+		background-size: contain;
+		
+	}
+@media (min-width: 768px) {
+	.slick-prev {
+		    left: -13%;
+		    top: 45%
+
+    		
+	}
+
+	.slick-next {
+		    right: -13%;
+		    top: 45%
+    		
+	}
+
+}
+@media (min-width: 992px) {
+	.slick-prev {
+		    
+	}
+
+	.slick-next {
+		    
+	}
+}
+
+@media (min-width: 1200px) {
+	
+}

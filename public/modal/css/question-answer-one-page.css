@@ -1,0 +1,90 @@
+.sc-question-person-name {
+	font-size: 11px;
+	position: relative;
+	top: -10px;
+	color:#4682b4;
+}
+.sc-question-date {
+	color: gray;
+	padding-left: 20px;
+}
+.sc-question-card-item-content{
+	color: #00080c;
+	position: relative;
+	width: 100%;
+	padding:15px 25px 45px 205px;
+}
+.sc-question-like-btn {
+	
+	background: #ffffff;
+	display: inline-block;
+    padding: 6px 20px;
+    border-radius: 25px;
+    color: #000000;
+    font-size: 14px;
+    text-align:center; 
+
+}
+.sc-question-like-btn:hover {
+	text-decoration: none;
+	
+    color: #000000;
+    
+
+}
+.sc-question-answer-btn {
+	background: #1d67c6;
+	display: inline-block;
+    padding: 6px 20px 6px 35px;
+    border-radius: 25px;
+    color: #ffffff;
+    font-size: 14px;
+    text-align:center;
+    position: relative;
+
+}
+.sc-question-answer-btn:before {
+	display: inline-block;
+	content: "";
+	width: 12px;
+	height: 12px;
+	background: url(../images/sc-comments-btn-icon.png) center no-repeat;
+	-webkit-background-size: contain;
+	background-size: contain;
+	position: absolute;
+	top:10px;
+	left: 16px;
+
+}
+.sc-question-answer-btn:hover{
+	
+    color: #ffffff;
+    text-decoration: none;
+}
+.sc-question-block-footer {
+	position: absolute;
+	bottom: 10px;
+}
+.sc-question-footer-btn-container a{
+	margin-right: 20px;
+}
+.sc-question-footer-socials li{
+	margin-left: 10px;
+}
+.sc-bookmark-questions {
+	top:19px;
+}
+.sc-questions-card-item {
+	border-bottom: 1px solid gray;
+}
+@media (min-width: 576px) {
+ }
+@media (min-width: 768px) {
+
+}
+@media (min-width: 992px) {
+	
+}
+@media (min-width: 1200px) {
+	
+}

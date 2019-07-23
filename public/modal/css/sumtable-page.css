@@ -1,0 +1,121 @@
+
+.sc-summ-table-container table {
+    
+    border-spacing: 0;
+    border-collapse: collapse;
+    font-size: 14px;
+    color: #fff;
+}
+.sc-summ-table-container table thead {
+    width: 1005px;
+    height: 32px;
+    border-radius: 16px;
+    background-image: linear-gradient(0deg,#3f85e1,#125fbf);
+}
+.sc-reservation-print-sumtable {
+	right: 15px;
+   
+}
+
+.table-head--year {
+    width: 114px;
+}
+.table-head {
+    height: 32px;
+    text-align: center;
+}
+.table-head--radiusfirst {
+    border-top-left-radius: 16px;
+    border-bottom-left-radius: 16px;
+    padding-left: 10px;
+    width: 224px;
+}
+.table-head--month {
+    width: 54px;
+    border-left: 1px solid #60a4fb;
+    border-right: 1px solid #60a4fb;
+}
+.table-head--radiusend {
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    width: 53px;
+}
+
+.table-body--first {
+    padding-top: 5px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.table-body__img {
+    border: 2px solid #2771cf;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+.table-body__text{
+    font-size: 14px;
+    color: #000;
+    margin-left: 20px;
+}
+
+.table-body--month, .table-body--year {
+    border: 1px solid #d0d0d0;
+    background-color: #f8f8f8;
+}
+.table-body--right {
+    border-right: 1px solid #000;
+}
+
+.table-body--year {
+    border:transparent;
+    color:#000000;
+    background-color: #fff;
+    text-align: center; 
+}
+.table-body--year span{
+    font-size: 11px;
+    
+
+}
+.sc-sumtable-colors-element-list {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	max-width: 600px;
+	padding-top: 30px;
+}
+.sc-sumtable-colors-element-list li{
+	display: flex;
+	align-items: center;
+	height: 20px;
+	min-width: 33%;
+	margin-bottom: 15px;
+}
+.sc-sumtable-pagination {
+	width: 230px;
+}
+.sc-sumtable-color {
+	width: 15px;
+	height: 15px;
+	margin-right: 7px;
+}
+.sc-sumtable-color1 {
+	background-color: #ac271e;
+}
+.sc-sumtable-color2 {
+	background-color: #fecf44;
+}
+.sc-sumtable-color3 {
+	background-color:#195d9e ;
+}
+.sc-sumtable-color4 {
+	background-color: #236923;
+}
+.sc-sumtable-color5 {
+	background-color:  #e27b03;
+}
+.sc-sumtable-color6 {
+	background-color: #6e911c;
+}

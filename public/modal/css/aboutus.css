@@ -1,0 +1,13 @@
+.sc-learningpage-article-help-link {
+    position: relative;
+    display: inline-block;
+    padding: 5px 40px;
+    border-radius: 20px;
+    color: #fff;
+    background: linear-gradient(0deg,#3396d9,#1e7fc1);
+}
+.sc-learningpage-article-help-link:hover {
+    
+    color: #fff;
+   
+   }

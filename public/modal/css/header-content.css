@@ -1,0 +1,156 @@
+.sc-header-content-page {
+	background-color:#ffffff;
+    }
+    .sc-header-content-items {
+        min-width: 290px;
+        max-width: 290px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .sc-header-center-container {
+        padding-top:20px;
+        max-width: 870px;
+    }
+.header-content-item1 {
+	position: relative;
+    
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: -2px 2px 2px rgba(0,0,2,.35);
+    background:url(../images/header-sad-icon.png) no-repeat center center;
+    background-size: cover;
+}
+.header-content-item2 {
+	position: relative;
+    
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: -2px 2px 2px rgba(0,0,2,.35);
+    background:url(../images/header-ogorod-icon.png) no-repeat center center;
+    background-size: cover;
+}
+.header-content-item3 {
+	position: relative;
+    
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: -2px 2px 2px rgba(0,0,2,.35);
+    background:url(../images/header-clumba-icon.png) no-repeat center center;
+    background-size: cover;
+}
+.header-content-item1.active {
+	margin-top: 10px;
+    margin-bottom: 10px;
+    height: 100px;
+    width: 100px;
+    box-shadow:none;
+    background:url(../images/logo-sad.png) no-repeat center center;
+    background-size: contain;
+    transition:height 0.5, width 0.5;
+
+}
+.header-content-item2.active {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 100px;
+    width: 100px;
+    box-shadow:none;
+    background:url(../images/logo-ogorod.png) no-repeat center center;
+    background-size: contain;
+
+}
+.header-content-item3.active {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 100px;
+    width: 100px;
+    box-shadow:none;
+    background:url(../images/logo-clumba.png) no-repeat center center;
+    background-size: contain;
+
+}
+.sc-header-title {
+    color:#1d67c6;
+    text-align: center;
+    font-size: 28px;
+
+    
+    }
+    .sc-header-main-page {
+        display: block;
+    }
+    .sc-header-socials{
+
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    -webkit-background-size: contain;
+    background-size: contain;
+    background-position: center;
+    cursor: pointer;
+    
+
+
+
+    }
+.sc-header-socials-icon-vk {
+    background-image: url(../images/socials-header-vk.png);
+}
+.sc-header-socials-icon-ins {
+    background-image: url(../images/socials-header-ins.png);
+}
+.sc-header-socials-icon-tw {
+    background-image: url(../images/socials-header-tw.png);
+}
+.sc-header-socials-icon-fb {
+    background-image: url(../images/socials-header-fb.png);
+}
+.sc-header-search-container {
+    border-radius: 5px;
+    border:2px solid #1d67c6;
+   
+}
+.sc-header-content-select {
+    width: 150px;
+    height: 30px;
+    line-height: 30px;
+}
+.sc-header-search-container .jq-selectbox__trigger-arrow {
+    top: 8px;
+}
+.sc-header-search-container .jq-selectbox__dropdown {
+    top:26px;
+}
+.sc-search-input-header {
+    height: 30px;
+    line-height: 30px;
+}
+.sc-header-search-button {
+    height: 33px;
+    min-width: 53px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: url(../images/search-icon.png) center center no-repeat, #1d67c6;
+    background-size:25% ;
+}
+.sc-header-search-button:hover {
+    background-size:20%;
+}
+.sc-header-authorization-container {
+    max-width: 200px;
+    min-width: 200px;
+    padding:60px 15px 0 15px;
+    line-height: 1.3;
+}
+
+
+@media (min-width: 768px) {
+		
+}

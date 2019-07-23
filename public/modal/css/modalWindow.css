@@ -1,0 +1,130 @@
+.add_product_container {
+	width: 800px;
+	font-size: 18px;
+    color: #fff;
+	margin-top: -33px;
+	margin-left: -17px;
+
+}
+.padding-modif{
+	    padding: 20px 40px;
+}
+.sc-form-title-relative-block {
+	position: relative;
+	display: inline-block;
+	font-size: 18px;
+	color: #fff;
+	margin-bottom: 20px;
+}
+.block_selection, .block_result {
+	border:1px solid #fff;
+	width: 340px;
+	max-width: 350px;
+	padding: 10px 20px 25px 20px;
+}
+.block_selection_search {
+	position: relative;
+}
+.form-control-info1 {
+    padding-left: 7px;
+    padding-right: 25px;
+    box-shadow: inset -3.536px 3.536px 5px 0 rgba(0,0,2,.15);
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    height: 30px;
+}
+.search-icon-block {
+	display: block;
+	position: absolute;
+	width: 25px;
+	height: 25px;
+	background: url(../images/search-icon1.png) center/contain no-repeat;
+	right: 4px;
+	top:3px;
+}
+.arrow-container {
+	padding-top: 60px;
+
+}
+.block_selection_title {
+	
+	text-align: center;
+	margin-bottom: 20px;
+}
+button:focus {
+    
+    outline: none;
+}
+.form-control-quantity {
+	width: 140px;
+}
+.form-control-quantity1 {
+	width: 110px;
+}
+.arrow-block-img {
+	width: 50px;
+	height: 25px;
+	margin-bottom: 21px;
+	background: url(../images/arrow123.png) center/contain no-repeat;
+}
+.result_element_title {
+	font-size: 14px;
+	line-height: 1;
+	text-decoration: underline;
+}
+.result_element {
+	height: 43px;
+}
+.result_element_content {
+	padding-bottom: 5px;
+	width: 100%;
+	overflow: hidden;
+	max-height: 30px;
+
+}
+.search-icon-modif {
+	    top: 20px;
+}
+.result_element_title1 {
+	font-size: 16px;
+}
+.sc-star-rating-sorts .star-rating__dark {
+    color: #fff;
+}
+.sc-star-rating-sorts .star-rating__white {
+    color: #fff;
+}
+.add_feedback {
+	width: 400px;
+	font-size: 18px;
+    color: #fff;
+
+}
+.section-booking-pt{
+	padding-top: 64px;
+
+}
+.mw-info-block {
+	width: 400px;
+	padding: 25px 35px;
+	background-color: #bf3b84;
+	border-radius: 50px;
+	color: #fff;
+	font-size: 17px;
+}
+.mw-info-block i{
+	margin-top: 20px;
+	font-size: 35px;
+}
+.mw-info-green {
+	background-color: rgb(84, 175, 58);
+}
+.tell-about1 textarea {
+    padding: 10px;
+    margin-top: 20px;
+    width: 100%;
+    height: 200px;
+    border-radius: 5px;
+    background-image: linear-gradient(0deg,#efefef,#fff);
+}
