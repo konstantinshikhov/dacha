@@ -1,5 +1,4 @@
-google pass DDu9HsNE8hHg3ZHq
-        login ydachacom2018
+
 
 
 moderator
